@@ -195,6 +195,13 @@ img, video{
     font-size: clamp(20px, 4vw, 40px);
     line-height: 1.1;
 }
+
+.h3-style-1{
+    font-family: var(--ff-brand);
+    font-weight: var(--fw-bold);
+    font-size: 22px;
+    line-height: 1.1;
+}
 .h4-style{
     font-family: var(--ff-brand);
     font-weight: var(--fw-bold);
