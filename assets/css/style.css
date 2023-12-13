@@ -1,0 +1,1393 @@
+.nav-container{
+    width: 100%;
+    max-width: var(--container-max-size);
+    margin-inline: auto;
+    padding-inline: var(--container-padding-inline);
+    padding-block-start: 40px;
+}
+
+.logo-head{
+    width: 100px;
+}
+
+.quote-btn{
+    background-color: #000;
+    padding: 10px 20px;
+    text-align: right;
+    display: inline-block;
+}
+
+.quote-btn a{
+    color: #ffffff;
+    font-family: var(--ff-brand);
+    font-size: clamp(12px, 2vw, 18px);
+}
+
+.ham-btn svg{
+    width: 30px;
+    height: fit-content;
+}
+
+.cross{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    width: fit-content;
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: var(--container-max-size);
+    margin-inline: auto;
+    padding-inline: var(--container-padding-inline);
+    padding-block: var(--container-padding-block);
+}
+
+
+.container-2{
+    width: 100%;
+    max-width: var(--container-max-size);
+    margin-inline: auto;
+    padding-inline: var(--container-padding-inline);
+}
+
+.h1-line{
+    content: '';
+    background-color: #ffd34e;
+    width: 6px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+.home-head h1{
+    padding: 0 0 0 30px;
+}
+
+#text-container .span{
+    background: #867B7B00;
+    color: #ffd34e;
+}
+.head-para p{
+    font-size: 19px;
+}
+
+.accordion-page button{
+    font-family: var(--ff-brand);
+    font-weight: var(--fw-regular);
+    font-size: clamp(18px, 2vw, 25px);
+    line-height: 1.4;
+    color: #000;
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+.story-page{
+    padding-top: 30px;
+}
+
+.story-page h6{
+    font-family: var(--ff-brand);
+    font-weight: var(--fw-extrabold);
+    font-size: clamp(25px, 2vw, 30px);
+    line-height: 1.4;
+    color: #000;
+}
+
+.dg-about p{
+    font-family: var(--ff-brand);
+    font-weight: var(--fw-regular);
+    font-size: clamp(20px, 2vw, 25px);
+    line-height: 1.8;
+}
+
+.dg-about a{
+    font-family: var(--ff-brand);
+    font-weight: var(--fw-regular);
+    font-size: clamp(20px, 2vw, 25px);
+    line-height: 1.8;
+    color: #000;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.blogs-ad h6{
+    font-family: var(--ff-brand);
+    font-weight: var(--fw-regular);
+    font-size: clamp(22px, 2vw, 30px);
+    line-height: 1.8;
+    color: #000;
+}
+
+.accordion-box button{
+    background: transparent;
+    border: none;
+}
+
+.head-nav{
+    display: none;
+}
+
+.panel{
+    padding: 25px 20px 0px 20px;
+    display: none;
+}
+
+.accordion svg{
+    width: 15px;
+    fill: #fff;
+}
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.accordion-icon {
+    transition: transform 0.3s ease;
+}
+
+.owl-carousel img {
+    width: 100%;
+    height: auto;
+  }
+
+  .panel1{
+    padding: 30px 0 0 0;
+    display: none;
+  }
+
+  .accordion .accordion-icon-1{
+    fill: #000;
+    width: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .side-bar-menu{
+    display: none;
+  }
+
+  .side-bar-menu{
+    width: 240px;
+  }
+
+  .side-bar-menu img{
+    width: 30px;
+  }
+
+  .nav-wrapper{
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .head-wrap{
+    background-color: #ffd34e;
+    padding: 20px 15px 20px 15px;
+  }
+
+  .child-wrap a{
+    font-size: 23px;
+    font-weight: var(--fw-extrabold);
+  }
+.social-nav{
+    background-color: #000;
+    padding: 20px 15px 20px 15px;
+}
+.social-nav h4{
+    font-size: 27px;
+}
+
+.get-btn{
+    background-color: transparent;
+    border: 1px solid #ffd34e;
+    background-color: #FFD34E00;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffd34e;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 15px 30px;
+    
+}
+
+.get-btn a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    fill: #ffd34e;
+    color: #ffd34e;
+}
+
+.nav-wrapper {
+    display: block; 
+    opacity: 0; 
+    transform: translateY(-100%); 
+    transition: opacity 0.5s, transform 1s;
+    position: absolute; 
+    pointer-events: none;
+    z-index: 2;
+}
+
+.nav-wrapper.show {
+    opacity: 1; 
+    transform: translateY(0); 
+    pointer-events: auto;
+}
+.nav-wrapper {
+    max-height: 100vh; /* Limit the height to the viewport height */
+    overflow-y: auto; /* Enable scrolling within the menu */
+    /* Other styles... */
+}
+
+.responsive-iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Aspect ratio of 16:9 */
+    width: 100%;
+    top: 50px;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.down-ft button{
+    background-color: transparent;
+    border: none;
+}
+
+.down-ft button svg{
+    fill: #ffd34e;
+    width: 40px;
+}
+.down-ft h3{
+    font-size: 25px;
+    font-weight: var(--fw-regular);
+    line-height: 1.5;
+}
+
+@media (min-width:600px) {
+    .head-para{
+        align-items: flex-start;
+    }
+    .wrap-grid{
+        display: grid;
+        grid-template-columns: 4fr 0.5fr;
+    }
+    .width-120{
+        width: 120px;
+    }
+    .head-wrap{
+        height: 100vh;
+    }
+    .bill-eng{
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .powe-pack{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    .width-1{
+        width: 500px;
+    }
+    .width-300{
+        width: 300px;
+    }
+    .pad-top-1{
+        padding-top: 150px;
+    }
+    .success-grid{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    .dg-about{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 50px;
+    }
+    .blogs-ad{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: baseline;
+    }
+    .pad-top-2{
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:900px) {
+    .head-wrap {
+        padding: 20px 40px 20px 40px;
+    }
+    .width-120 {
+        width: 180px;
+    }
+    .accordion svg{
+        width:20px;
+        fill: #fff;
+    }
+    .head-nav{
+        display: inline-block;
+    }
+    .blogs-ad{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+    }
+    .side-bar-menu{
+        display: block;
+        background-color: rgb(255, 255, 255);
+    }
+    .ser-side .side-bar-menu{
+        position: absolute;
+        top: 40px;
+        
+        
+    }
+    .ser-side .side-bar-menu{
+        display: none;
+    }
+    .side-bar-menu{
+        width: 210px;
+        z-index: 2;
+    }
+    
+    .side-bar-menu img{
+        width: 30px;
+    }
+    .side-menu{
+        padding: 15px;
+        border-bottom-style: solid;
+        border-bottom-color: #c4c4c4;
+        border-bottom-width: 1px;
+    }
+    .ser-side .side-bar-menu.show-menu {
+        display: block; 
+    }
+    .ser-side a{
+        font-size: 14px;
+    }
+    .side-svg.rotate{
+        transform: rotate(-90deg);
+        
+    }
+    
+    .dev-side{
+        padding: 15px;
+        border-bottom-style: solid;
+        border-bottom-color: #c4c4c4;
+        border-bottom-width: 1px;
+        
+    }
+    .dev-parent{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 210px;
+        width: 200px;
+        top: 0;
+        display: none;
+    }
+    .dev-parent.show-menu {
+        display: block; 
+    }
+    .wrap-grid{
+        grid-template-columns: 4fr 2fr;
+    }
+}
+
+@media (min-width:1100px) {
+   
+    .blogs-ad{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+    }
+    .powe-pack {
+        column-gap: 80px;
+    }
+    .child-wrap a{
+        font-size: 40px;
+    }
+    .social-nav{
+        padding: 20px 40px 20px 40px;
+    }
+    .mob-nav{
+        gap: 70px;
+    }
+    .width-120 {
+        width: 192px;
+    }
+}
+
+
+
+
+
+
+/* outcome page */
+.case-study{
+    background-color: #fff;
+    box-shadow: 5px 8px 11px 0px rgba(181,179,178,.75);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.case-study svg{
+    width: 15px;
+}
+
+.percent-box{
+    background-color: #fff;
+    box-shadow: 5px 8px 11px 0px rgba(181,179,178,.75);
+    width: 280px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.percent-box img{
+    width: 150px;
+}
+
+.percent-box h1{
+    font-size: 40px;
+}
+.talk-page h2{
+    font-size: 40px;
+}
+
+.talk-page button{
+    background-color: #fff;
+    padding: 8px 30px;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media (min-width:600px) {
+    .case-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (min-width:900px) {
+    .talk-page{
+        justify-content: space-between;
+    }
+    
+}
+
+@media (min-width:1100px) {
+    .percent-box{
+        width: 310px;
+    }
+}
+
+
+
+
+/* design */
+.container-1{
+    width: 100%;
+    margin-inline: auto;
+    padding-block: var(--container-padding-block);
+}
+
+.design-head{
+    position: relative;
+    padding-inline: var(--container-padding-inline);
+}
+
+.sched a{
+    color: #fff;
+
+}
+
+.sched{
+    background-color: #000;
+    padding: 5px 25px;
+    border: none;
+    width: fit-content;
+}
+
+.bg-img{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/Layer-42.webp);
+    background-size: cover;
+    margin-block-start: var(--container-padding-block);
+}
+
+.bg-img-1{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/CAT.webp);
+    background-size: cover;
+}
+
+.cat-page{
+    padding-inline: var(--container-padding-inline);
+}
+.cat-page p{
+    text-align: right;
+}
+
+.cat-page h2{
+    text-align: right;
+}
+
+.our-des h6{
+    font-size: 25px;
+    text-align: center;
+}
+
+.our-des p{
+    text-align: center;
+}
+
+.rit-arrow svg{
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    right: 0;
+    width: 30px;
+    transform: rotate(180deg);
+    fill: hsla(0,0%,93.3%,.9);
+}
+
+.lft-arrow svg{
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    left: 0;
+    width: 30px;
+    transform: rotate(180deg);
+    fill: hsla(0,0%,93.3%,.9);
+}
+
+.rit-arrow-1 svg{
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    right: 0;
+    width: 30px;
+    transform: rotate(180deg);
+    fill: hsla(0,0%,93.3%,.9);
+}
+
+.lft-arrow-1 svg{
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    left: 0;
+    width: 30px;
+    transform: rotate(180deg);
+    fill: hsla(0,0%,93.3%,.9);
+}
+
+.owl-carousel.owl-theme.owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #000;
+}
+.owl-carousel.owl-theme.owl-dots .owl-dot span {
+    width: 7px;
+    height: 7px;
+}
+.ux-bg{
+    background-image:url("http://digitalmonk.ca/wp-content/uploads/2023/05/ux-bg.png");
+}
+
+.getin{
+    background-color: #000;
+    width: fit-content;
+    padding: 5px 25px;
+    border: none;
+}
+
+.getin a{
+    color: #fff;
+}
+
+.decode-page{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    
+}
+
+.bd-bt{
+    margin-top: 40px;
+    width: 100%;
+    height: 0.5px;
+    background-color: #4f4f4f;
+}
+
+.bd-yt{
+    width: 48px;
+    height: 2px;
+    background-color: #f4b70c;
+}
+.client-grid h3{
+    font-size: 28px;
+}
+.client-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.img-bd{
+    border: 1px solid;
+}
+
+.rec-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.faq-accord button{
+    background: transparent;
+    border: none;
+    align-items: start;
+    width: 100%;
+}
+
+.accordion-2 svg{
+    width: 20px;
+    height: 29px;
+}
+
+.panel-2{
+    padding: 15px 0 0 0;
+    display: none;
+}
+
+.accordion-2 svg {
+    transition: transform 0.3s ease;
+}
+
+.blog-ad-pg{
+    background-color: #fff;
+    padding:40px;
+}
+
+.blog-ad-pg a{
+    line-height: 1.5;
+}
+
+.cal p{
+    font-size: 12px;
+}
+
+.cal svg{
+    width: 15px;
+    fill: #4f4f4f;
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+    
+}
+
+.blg-1{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,.16);
+}
+
+.see-btn button{
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 5px 20px;
+}
+
+.con-bk{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/admin-ajax-5.webp);
+}
+
+.con-form{
+    background-color: #fff;
+    padding: 10px;
+    margin-block: 20px;
+}
+
+.con-form input{
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #666;
+    padding: 0 0 10px 5px;
+    margin-bottom: 20px;
+}
+
+.con-form input::placeholder{
+    font-weight: var(--fw-bold);
+    font-size: 16px;
+}
+
+.cont-btn button{
+    background-color: #000;
+    padding: 5px 20px;
+    border: none;
+}
+
+.cont-btn button svg{
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+}
+.port-nav{
+    display: none;
+}
+
+.bd-width{
+    display: none;
+}
+
+.h1-cont{
+    display: none;
+}
+
+.man-pic{
+    display: none;
+}
+
+@media(min-width:600px){
+    .bd-width{
+        display: block;
+    }
+    .cat-page p{
+        width: 50%;
+    }
+    .design-head p{
+        width: 410px;
+    }
+    .cat-page h1{
+        font-size: 35px;
+    }
+    .lft-arrow svg{
+        top: 164px;
+    }
+    .rit-arrow svg{
+        top: 164px;
+    }
+
+    .lft-arrow-1 svg{
+        top: 124px;
+    }
+    .rit-arrow-1 svg{
+        top: 124px;
+    }
+    .port-nav{
+        display: block;
+    }
+    .port-nav button{
+        border: none;
+        padding: 5px 30px;
+    }
+    .port-grid{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+    }
+    .look-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .decode-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: start;
+        margin-top: 80px;
+    }
+    .client-grid{
+        grid-template-columns: 1fr 3fr;
+    }
+    .bd-width{
+        width: 1px;
+        background-color: #000;
+    }
+    .rec-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 35px;
+    }
+    .rec-img-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .rec-img-grid-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .blog-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .cont-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .cont-btn{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .h1-cont{
+        display: block;
+    }
+    .owl-digi{
+        margin-top: 50px;
+    }
+    .owl-story{
+        margin-top: 50px;
+    }
+    
+    
+}
+
+@media(min-width:900px) {
+    .story-grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 60px;
+    }
+    .count-grid{
+        display: grid;
+        grid-template-columns: 150px 200px 200px;
+        width: fit-content;
+    }
+    .count-grid h3{
+        font-size: 20px;
+    }
+    .owl-story{
+        margin-top: 50px;
+    }
+    .lft-arrow svg {
+        top: 210px;
+    }
+    .rit-arrow svg {
+        top: 210px;
+    }
+    .lft-arrow-1 svg {
+        top: 100px;
+        left: -10px;
+    }
+    .rit-arrow-1 svg {
+        top: 100px;
+    }
+    .blog-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width:1100px){
+    .faq-grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 80px;
+    }
+    .man-pic{
+        display: block;
+    }
+    .cat-page h1{
+        font-size: 60px;
+    }
+    .lft-arrow svg{
+        top: 250px;
+    }
+    .rit-arrow svg{
+        top: 250px;
+    }
+    .lft-arrow-1 svg {
+        top: 114px;
+    }
+
+    .rit-arrow-1 svg {
+        top: 114px;
+    }
+}
+
+
+
+
+/* mobile application development */
+.team-para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.mob-wid{
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    margin-block-start: var(--container-padding-block);
+}
+
+.bg-img-3{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/Canada.webp);
+    background-position: bottom center;
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+}
+
+.padd-1{
+    padding-block-end: 100px;
+}
+
+.owl-02{
+    margin-top: 40px;
+}
+
+.owl-theme.owl-02 .owl-dots .owl-dot span{
+    width: 7px;
+    height: 7px;
+    margin-block: 20px;
+}
+
+.bg-img-4{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/Our-Core-BG.webp);
+    background-position: bottom right;
+    background-size: cover;
+}
+
+.core-part img{
+    width: 40px;
+}
+
+.part-pic img{
+    width: 80px;
+}
+
+.serve-grid img{
+    width: 100px;
+}
+.responsive-iframe-container{
+    margin-block: var(--container-padding-block);
+}
+
+@media (min-width:600px) {
+    .mob-head p{
+        width: 450px;
+    }
+    .empty-width{
+        width: 100%;
+        height: 130px;
+    }
+    .bg-img-3{
+        background-size: 130% auto;
+    }
+    .core-part{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .core-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bg-img-4{
+        background-position: bottom center;
+    }
+    .comp-width p{
+        width: 300px;
+    }
+    .data-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .serve-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:900px) {
+    .mob-head p {
+        width: 650px;
+    }
+    .empty-width{
+        height: 100px;
+    }
+}
+
+@media (min-width:1100px) {
+    .comp-width p{
+        width: auto;
+    }
+    .slide-grid{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+    }
+    .faright{
+        position: absolute;
+        width: 20px;
+        top: 350px;
+        right: 0;
+    }
+    .faleft{
+        position: absolute;
+        width: 20px;
+        top: 350px;
+        left: 0;
+    }
+    .bg-img-3 {
+        background-size: 120% auto;
+    }
+    .empty-width {
+        height: 160px;
+    }
+    .mob-head p {
+        width: 631px;
+    }
+    .responsive-iframe-container{
+        margin-block-end: auto;
+    }
+    .serve-grid{
+        margin-block-start: 40px;
+    }
+}
+
+
+
+
+
+
+/* web-dev */
+.stroke-1{
+    -webkit-text-stroke-width: 2px;
+    stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    color: #02010100;
+    font-size: 50px;
+}
+
+.faright-1{
+    position: absolute;
+    width: 20px;
+    top: 65px;
+    right: 0;
+    z-index: 2;
+}
+.faleft-1{
+    position: absolute;
+    width: 20px;
+    top: 65px;
+    left: 0;
+    z-index: 2;
+}
+
+.faright-1 svg{
+    fill: hsla(0,0%,93.3%,.9);
+}
+
+.faleft-1 svg{
+    fill: hsla(0,0%,93.3%,.9);
+}
+
+.owl-carousel.owl-theme .owl-dots .owl-dot span{
+    width: 7px;
+    height: 7px;
+}
+.owl-03{
+    margin-block: var(--container-padding-block);
+}
+.panel-2 p{
+    font-size: 14px;
+}
+@media(min-width:600px) {
+    .owl-03-grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .faleft-1{
+        top: 121px;
+    }
+    .faright-1{
+        top: 121px;
+    }
+}
+
+@media (min-width:900px) {
+    .faright-1 {
+        top: 170px;
+        width: 30px;
+    }
+    .faleft-1 {
+        top: 170px;
+        width: 30px;
+    }
+
+}
+
+@media(min-width:1100px) {
+    .faright-1 {
+        top: 242px;
+    }
+    .faleft-1 {
+        top: 242px;
+    }
+}
+
+
+
+/* social media */
+.social-icon img{
+    width: 20px;
+}
+
+.social-icon p{
+    font-size: 14px;
+    font-weight: var(--fw-bold);
+}
+.soci-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.border-end{
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    padding: 24px 15px 24px 15px;
+}
+
+.bod-top{
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #000;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+
+}
+.bod-down{
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #000;
+    padding-block-end: 25px;
+}
+
+.bg-store-img{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/Deliverr-p-1600.webp);
+    background-size: cover;
+}
+
+.bg-store-img1{
+    background-image: url("https://www.digitalmonk.ca/wp-content/uploads/2023/12/succee-1.webp");
+    background-size: cover;
+}
+
+.bg-store-img2{
+    background-image: url(https://www.digitalmonk.ca/wp-content/uploads/2023/12/success-3.webp);
+    background-size: cover;
+}
+
+.bod-down-1{
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #000;
+    padding-block: var(--container-padding-block);
+}
+
+@media(min-width:600px) {
+    .soci-grid{
+        grid-template-columns: 60% 40%;
+    }
+    .story-grid{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 0;
+    }
+    .story-grid-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .how-grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+    }
+    .bod-top{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        gap: 30px;
+    }
+    .bod-down{
+        gap: 0;
+    }
+}
+
+
+
+/* growth marketing */
+.grow-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.ba-box svg{
+    width: 50px;
+    fill: #ffd34e;
+}
+
+.ba-box{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ba-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.metho-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.padd-01{
+    padding: 15px;
+}
+
+.stuck-grid svg{
+    width: 35px; 
+    fill: #ffd34e;
+}
+.know-grid svg{
+    width: 35px; 
+    fill: #ffd34e;
+}
+
+.stuck-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.our-team-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 40px;
+}
+
+.padd-02{
+    padding-inline: var(--container-padding-inline);
+    padding-block:  var(--container-padding-block);
+}
+
+/* .fda-grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-inline: 60px;
+    padding-block: 60px;
+} */
+
+.metho-grid h1{
+    font-size: 28px;
+}
+
+@media (min-width:600px) {
+    .grow-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .ba-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .bod-down-2{
+        border-style: solid;
+        border-width: 0 1px 0 0;
+        border-color: #333;
+    }
+    .tc-tech{
+        padding:  30px 20px;
+    }
+    .bd-width-1{
+        border-style: solid;
+        border-width: 0 1px 0 0;
+        border-block-start-width: 0px;
+        border-inline-end-width: 1px;
+        border-block-end-width: 0px;
+        border-inline-start-width: 0px;
+        padding-block-start: 0px;
+        padding-block-end: 0px;
+        padding-inline-start: 0px;
+        padding-inline-end: 20px;
+    }
+    .metho-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .meth-inner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .stuck-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 60px;
+    }
+    .know-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        row-gap: 40px;
+    }
+    .our-team-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: flex-start;
+    }
+    .ss-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .padd-02{
+        padding-inline: 30px;
+        padding-block:  30px;
+    }
+}
+
+@media (min-width:1100px) {
+    .padd-02{
+        padding-inline: 40px;
+        padding-block:  30px;
+    }
+    .our-team-grid{
+        gap: 30px;
+    }
+}
+
+
+
+/* insights */
+
+.insight-blog img{
+    height: 829px;
+    object-fit: cover;
+    filter: brightness(56%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    width: 100%;
+}
+.inst-title{
+    position: absolute;
+    bottom: 10px;
+    padding: 30px;
+}
+
+.cal-1 svg{
+    width: 20px; 
+    fill: #fff;
+}
+
+.user svg{
+    width: 15px;
+    height: 15px;
+}

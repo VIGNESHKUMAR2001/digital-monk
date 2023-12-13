@@ -1,0 +1,64 @@
+/* Variables */
+:root{
+    /* fonts */
+    --ff-brand: 'Manrope', sans-serif;
+
+    /* font-weight */
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-bold: 700;
+    --fw-semibold:600;
+    --fw-medium: 500;
+    --fw-extrabold:800;
+
+    /* colours */
+    --clr-main: #1E1E1E;
+    --clr-font: #000;
+    --clr-font-1: #ffd34e;
+    --clr-2main:#F2F2F2;
+    
+}
+    
+/* paddings */
+:root{
+    --container-inline-padding:380px;
+    --container-padding-block:60px;
+    --container-max-size:1250px;
+}
+@media (max-width: 2600px){
+    :root{
+        --container-padding-inline: 120px;
+        --container-padding-block: 100px;
+    }
+}
+
+
+@media (max-width: 1440px){
+    :root{
+        --container-padding-inline: 100px;
+        --container-padding-block: 100px;
+    }
+}
+
+@media (max-width: 1024px){
+    :root{
+        --container-padding-inline: 90px;
+        --container-padding-block: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --container-padding-inline: 60px;
+        --container-padding-block: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --container-padding-inline: 20px;
+        --container-padding-block: 30px;
+    }
+
+}
+

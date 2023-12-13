@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/variable.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- OwlCarousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+
+        <div class="nav-wrapper">
+            <div class="wrap-grid">
+                <div class="head-wrap d-flex al-cn">
+                    <div class="cross d-flex js-end">
+                        <svg width="22" height="22" viewBox="0 0 746 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M395.663 374.979L740.925 28.1535C747.233 21.8175 747.209 11.5675 740.873 5.25854C734.536 -1.04846 724.287 -1.02746 717.978 5.31054L372.82 352.032L27.661 5.30954C21.353 -1.02646 11.103 -1.05047 4.76596 5.25753C-1.57104 11.5655 -1.59404 21.8155 4.71396 28.1525L349.977 374.979L4.71396 721.802C-1.59304 728.138 -1.57104 738.389 4.76596 744.698C7.92396 747.841 12.057 749.414 16.188 749.414C20.344 749.414 24.498 747.824 27.661 744.646L372.82 397.925L717.979 744.646C721.143 747.823 725.298 749.414 729.452 749.414C733.583 749.414 737.715 747.843 740.874 744.698C747.21 738.39 747.234 728.139 740.926 721.802L395.663 374.979Z" fill="black"/>
+                            </svg>
+                                
+                    </div>
+                    <div class="d-flex fl-wrap al-cn gap mob-nav">
+                        <div class=" d-flex d-fl-dir gap-1 child-wrap">
+                        <a class="para-style -w" href="#"> Home</a>
+
+                        <a class="para-style" href="#"> Services</a>
+
+                        <a class="para-style" href="#"> Outcome</a>
+
+                        <a class="para-style" href="#"> Blogs</a>
+
+                        <a class="para-style" href="#"> Contact Us</a>
+                        </div>
+
+                        <div class="d-flex d-fl-dir gap-3 width-120">
+                            <a class="para-style"href="#">Digital Consulting</a>
+
+                            <a class="para-style"href="#">Design</a>
+
+                            <a class="para-style"href="#">Mobile Application Development</a>
+
+                            <a class="para-style"href="#">Web Development</a>
+                        </div>
+
+                        <div class="d-flex d-fl-dir gap-3 width-120">
+                            <a class="para-style" href="#">Content Marketing</a>
+
+                            <a class="para-style" href="#">Digital Marketing Company</a>
+
+                            <a class="para-style" href="#">Social Media Marketing</a>
+
+                            <a class="para-style" href="#">Growth Marketing</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="social-nav d-flex al-cn">
+                    <div class="d-flex d-fl-dir gap">
+                        <p class="para-style c-w">Got An Idea?</p>
+
+                        <h4 class="h2-style c-w">
+                            Let’s craft
+                        <br>
+                            brilliance together!
+                        </h4>
+                        
+                        <button class="get-btn">
+                            <a href="" class="h3-style">Get in Touch</a>
+                        </button>
+
+                        <div class="d-flex gap-1 fl-wrap">
+                            <a class="a-tag c-w " href="#">LinkedIn</a>
+
+                            <a class="a-tag c-w" href="#">Instagram</a>
+
+                            <a class="a-tag c-w" href="#">Facebook</a>
+
+                            <a class="a-tag c-w" href="#">Twitter</a>
+
+                            <a class="a-tag c-w" href="#">Dribble</a>
+
+                            <a class="a-tag c-w" href="#">Pinterest</a>
+                        </div>
+
+                        <div class="d-flex gap">
+                            <a class="a-tag c-w" href="#">India</a>
+
+                            <a class="a-tag c-w" href="#">USA</a>
+
+                            <a class="a-tag c-w" href="#">UAE</a>
+
+                            <a class="a-tag c-w" href="#">Vietnam</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="nav-container">
+            <div class="d-flex js-sb al-cn ">
+                
+                <div >
+                    <img class="logo-head" src="assets/images/logo-digitalmonk.svg" alt="">
+                </div>
+
+                <div class="d-flex al-cn gap-1">
+                    <div class="head-nav">
+                        <div class="d-flex al-cn gap-1 ">
+                            <div class="d-flex js-sb gap">
+                                <a href="#" class="a-tag">About us</a>
+                                
+                                <div class="d-flex al-cn gap-2 pos-rel ser-side">
+                                    <a href="#" class="a-tag ">Services </a>
+
+                                    <svg class="side-svg" width="10" height="10" viewBox="0 0 288 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.9993 0H262.999C284.399 0 295.099 25.9 279.999 41L160.999 160C151.599 169.4 136.399 169.4 127.099 160L7.99928 41C-7.10072 25.9 3.59928 0 24.9993 0Z" fill="black"/>
+                                        </svg>
+                                        
+                                        <div class="side-bar-menu d-flex d-fl-dir gap ">
+                                            <div class="d-flex al-cn gap-2 side-menu">
+                                                <img src="assets/images/digital_consulting_1.svg" alt="">
+                                                <a href="#" class="para-style">Digital Consulting</a>
+                                            </div>
+                        
+                                            <div class="d-flex al-cn gap-2 side-menu">
+                                                <img src="assets/images/design-icon.svg" alt="">
+                                                <a href="#" class="para-style">Design</p>
+                                            </div>
+                        
+                                            <div class="d-flex al-cn gap-2 side-menu aside-sub pos-rel">
+                                                <img src="assets/images/development-icon.svg" alt="">
+                                                <div class="d-flex al-cn">
+                                                    <div>   
+                                                        <a href="#" class="para-style">Development </a>
+                                                    </div>
+
+                                                    <svg class="side-svg rotate" style=" margin-left: 15px;" width="10" height="10" viewBox="0 0 288 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M24.9993 0H262.999C284.399 0 295.099 25.9 279.999 41L160.999 160C151.599 169.4 136.399 169.4 127.099 160L7.99928 41C-7.10072 25.9 3.59928 0 24.9993 0Z" fill="black"/>
+                                                        </svg>
+                                                </div>
+
+                                                <div class="dev-parent">
+                                                    <div class="dev-side d-flex gap-2">
+                                                        <img src="assets/images/mobile-dev-icon.svg" alt="">
+                                                        <a href="#" class="para-style">Mobile Application Development</a>
+                                                    </div>
+
+                                                    <div class="dev-side d-flex gap-2">
+                                                        <img src="assets/images/development-icon_1.svg" alt="">
+                                                        <a href="#" class="para-style">Web Development</a >
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                        
+                                            <div class="d-flex al-cn gap-2 side-menu">
+                                                <img src="assets/images/content-icon.svg" alt="">
+                                                <a href="#" class="para-style">Content</a >
+                                            </div>
+                        
+                                            <div class="d-flex al-cn gap-2 side-menu aside-sub pos-rel">
+                                                <img src="assets/images/digital-marketing-icon.svg" alt="">
+                                                <div class="d-flex al-cn">
+                                                    <div>   
+                                                        <a href="#" class="para-style">Marketing </a>
+                                                    </div>
+
+                                                    <svg class="side-svg rotate" style=" margin-left: 15px;" width="10" height="10" viewBox="0 0 288 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M24.9993 0H262.999C284.399 0 295.099 25.9 279.999 41L160.999 160C151.599 169.4 136.399 169.4 127.099 160L7.99928 41C-7.10072 25.9 3.59928 0 24.9993 0Z" fill="black"/>
+                                                        </svg>
+                                                </div>
+
+                                                <div class="dev-parent">
+                                                    <div class="dev-side d-flex gap-2">
+                                                        <img src="assets/images/marketing-icon2.svg" alt="">
+                                                        <a href="#" class="para-style">Digital Marketing Company</a>
+                                                    </div>
+
+                                                    <div class="dev-side d-flex gap-2">
+                                                        <img src="assets/images/social-media-icon.svg" alt="">
+                                                        <a href="#" class="para-style">Social Media Marketing</a >
+                                                    </div>
+
+                                                    <div class="dev-side d-flex gap-2">
+                                                        <img src="assets/images/growth-marketing-icon.svg" alt="">
+                                                        <a href="#" class="para-style">Growth Marketing</a >
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                                <a href="#"class="a-tag" >Outcome</a>
+             
+                                <a href="#" class="a-tag">Insights</a>
+            
+                                <a href="#" class="a-tag">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="quote-btn">
+                        <a href="#">Get a Quote</a>
+                    </div>
+    
+                    <div class="ham-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+                            <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
+                            </svg>
+                    </div>
+                </div>
+                 
+                
+              
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container pos-rel">
+            <div class=" d-flex d-fl-dir gap mob-head">
+                <div class=" pos-rel home-head">
+                    <div class="d-flex">
+                        <div class="h1-line"></div>
+                    <h1 class="h1-style">
+                        Build Powerful Websites</h1>
+
+                    <div id="text-container">
+                        <h1 class="h1-style span" style="display: none">E-Store</h1>
+                        <h1 class="h1-style span" style="display: none;">Web App</h1>
+                        <h1 class="h1-style span" style="display: none;">CMS</h1>
+                    </div>
+                    </div>
+                    
+                        <h1 class="h1-style">with Us or With Digital Monk</h1>
+                    </div>
+    
+                    <p class="para-style ">Our passionate team of 100+ programmers & designers is ready to assist you in giving shape to your vision by leveraging the power of web technologies.</p>
+    
+                    <div class="d-flex fl-wrap gap">
+                        <button class="sched"><a href="#" class="a-tag">View Protfolio</a></button>
+
+                        <button class="sched"><a href="#" class="a-tag">Schedule a Free Consultation</a></button>
+                    </div>
+
+                    </div>
+                    <div class="responsive-iframe-container">
+                        <iframe src="https://www.youtube.com/embed/l_16xI3Mb_o?autoplay=1&mute=1&loop=1&playlist=l_16xI3Mb_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <!-- crafting increadble -->
+    <section>
+        <div class="bg-img-3"> 
+            <div class="container pos-rel">
+                <div class="d-flex d-fl-dir gap-1 padd-1">
+                    <h1 class="h2-style">AI-Powered Web Development Services That Guarantees Stunning Results & Long- Term ROI For Your Brand</h1>
+
+                    <h2 class="h2-style stroke-1">Canada</h2>
+    
+                    <p class="para-style">Team Digital Monk offers some of the most advanced, sophisticated and highly tech-savvy website development services for growth-focused startups, enterprises and SMEs, by leveraging the power of AI and ML, along with IoT, Metaverse and more. </p>
+
+                    <div class="empty-width"></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- slider -->
+    <section>
+        <div class="container pos-rel">
+            <div class="owl-03-grid">
+                <div class="d-flex d-fl-dir gap">
+                    <div class="d-flex d-fl-dir gap-2">
+                        <h1 class="h1-style">CREATE. BUILD. GROW.</h1>
+
+                        <p class="para-style cl-33"><strong>At Digital Monk, we offer every web development service you need to build a full-blown web-based product, such as:</strong></p>
+                    </div>
+
+                    <p class="para-style">Website Development</p>
+
+                    <p class="para-style">Web Application Development</p>
+
+                    <p class="para-style">eCommerce Solutions Development</p>
+
+                    <p class="para-style">Dedicated Content Management System Development</p>
+
+                    <p class="para-style">No-code Development & Low-code Development</p>
+
+                    <p class="para-style">Ideation – Market Research – Wireframing – Prototyping Project Management – UI Design – UX Design – Coding – QA Testing</p>
+
+                    <p class="para-style">Cybersecurity – Consulting – Publishing – Maintenance – Support</p>
+                </div>
+
+                <div class="pos-rel">
+                    <div class="owl-carousel owl-03 owl-theme ">
+                        <div>
+                            <img src="assets/images/design/homepage-seen-computer-screen-scaled.jpg" alt="">
+                        </div>
+        
+                        <div>
+                            <img src="assets/images/design/Clutch26_CafeJavs.png" alt="">
+                        </div>
+        
+                        <div>
+                            <img src="assets/images/design/Clutch11_Audi.png" alt="">
+                        </div>
+        
+                        <div>
+                            <img src="assets/images/design/electric-car-ecology-technology-save-energy-concept-scaled.jpg" alt="">
+                        </div>
+        
+                        <div>
+                            <img src="assets/images/design/Clutch20.png" alt="">
+                        </div>
+                    </div>
+        
+                    <div class="faright-1">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>
+                    </div>
+        
+                    <div class="faleft-1">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- core mobile -->
+    <section>
+        <div class="bg-img-4">
+            <div class="container pos-rel">
+                <div class="core-grid">
+
+                    <div>
+                        <!-- dfudufosuonhg -->
+                    </div>
+
+                    <div class="d-flex d-fl-dir gap ">
+                        <div class="d-flex d-fl-dir gap-2">
+                            <h1 class="h1-style">Next-Gen Web Development Services </h1>
+    
+                            <p class="para-style">We eat, sleep & breathe Mobile - ever since June 29th, 2007 (Yes, that’s when the first iPhone was launched), we’ve geeked about smart phones - each and every one of us, and that’s why our clients love us.</p>
+                        </div>
+                        
+                        <div class="d-flex d-fl-dir js-cn al-cn gap core-part">
+                            <div class="d-flex d-fl-dir js-cn gap-2 al-cn" >
+                                <img src="assets/images/design/Product-Strategy-1.png" alt="">
+        
+                                <p class="para-style tx-cn"><strong>Website <br> Development</strong></p>
+                            </div>
+    
+                            <div  class="d-flex d-fl-dir js-cn gap-2 al-cn">
+                                <img src="assets/images/design/Product-Designing-1.png" alt="">
+        
+                                <p class="para-style tx-cn"><strong>Front <br> End</strong></p>
+                            </div>
+    
+                            <div  class="d-flex d-fl-dir js-cn gap-2 al-cn">
+                                <img src="assets/images/design/Mobile-App-Development.png" alt="">
+        
+                                <p class="para-style tx-cn"><strong>Back  <br> End</strong></p>
+                            </div>
+    
+                            <div  class="d-flex d-fl-dir js-cn gap-2 al-cn">
+                                <img src="assets/images/design/Web-App-Development.png" alt="">
+        
+                                <p class="para-style tx-cn"><strong>Web App  <br> Development</strong></p>
+                            </div>
+    
+                            <div class="d-flex d-fl-dir js-cn gap-2 al-cn" >
+                                <img src="assets/images/design/iOT-App.png" alt="">
+        
+                                <p class="para-style tx-cn"><strong>Data Base</strong></p>
+                            </div>
+    
+                            <div  class="d-flex d-fl-dir js-cn gap-2 al-cn">
+                                <img src="assets/images/design/Mobile-Backend-Engineering.png" alt="">
+        
+                                <p class="para-style tx-cn"><strong>API Integration</strong></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Why company -->
+    <section>
+        <div class="container">
+            <div class="d-flex d-fl-dir gap-7">
+                <div class="comp-width d-flex d-fl-dir gap-2">
+                    <h1 class="h1-style">Why Companies <br> Partner With Us</h1>
+
+                    <p class="para-style">Digital Monk believes in leveraging the boom-up approach to software development, making the end-user the center of our universe.
+                        We go the extra mile to adopt, iterate and invest in the latest technologies and seamless processes, which makes us an unstoppable force.
+                    </p>
+                </div>
+
+                <div class="d-flex  d-fl-dir gap-7 data-grid">
+                    <div class="d-flex d-fl-dir gap-1 part-pic">
+                        <img src="assets/images/design/Data-Driven-1.png" alt="">
+
+                        <p class="para-large-1 cl-33"><strong>Deep Analysis</strong></p>
+
+                        <p class="para-style">Data is the core foundation of our working methodology for building next-gen, scalable, and powerful mobile apps. We worship data because God lies in details. We understand, decode and innovate, based on hardcore, real, and practical data analysis.</p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir gap-1 part-pic">
+                        <img src="assets/images/design/Scalable-Solutions.png" alt="">
+
+                        <p class="para-large-1 cl-33"><strong>Ideas & Vision</strong></p>
+
+                        <p class="para-style">Leveraging data and deploying powerful tech stacks, our team at Digital Monk is able to conceptualize and build scalable mobile applications for growth-centric startups and businesses, ensuring an amazing user experience every single moment.</p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir gap-1 part-pic">
+                        <img src="assets/images/design/Feedback-Loop.png" alt="">
+
+                        <p class="para-large-1 cl-33"><strong>Tech-Superiority</strong></p>
+
+                        <p class="para-style">Agile work model is the platform, that allows our 100+ strong team of mobile app developers, designers and UX/UI experts to unleash unbelievable productivity, using the powerful feedback loop to iterate, innovate and deliver business-ready solutions.</p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir gap-1 part-pic">
+                        <img src="assets/images/design/We-take-a-360-degree-approach.png" alt="">
+
+                        <p class="para-large-1 cl-33"><strong>Human-First</strong></p>
+
+                        <p class="para-style">Right from creating a blueprint to developing wireframes, mockups, user journeys, development frameworks, and architecture models, we at Digital Monk think about customers first, their pain points, and their aspirations. And the results are magical indeed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- recent clients -->
+    <section>
+        <div class="container">
+            <div >
+                <div class="rec-grid"class="rec-grid">
+                    <div class="d-flex d-fl-dir gap-2">
+                        <div class="d-flex d-fl-dir">
+                            <div class="d-flex al-cn gap-1">
+                                <div class="bd-yt"></div>
+                                <p class="para-style">Some of our</p>
+                            </div>
+                            
+                        </div>
+                        <h1 class="h1-style">Recent clients</h1>
+                    </div>
+    
+    
+                    <div class="rec-img-grid">
+                        <div class="img-bd">
+                            <img src="assets/images/design/hmum.png" alt="">
+                        </div>
+    
+                        <div class="img-bd">
+                            <img src="assets/images/design/bui.png" alt="">
+                        </div>
+    
+                        <div class="img-bd">
+                            <img src="assets/images/design/dot.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+                <div class="d-flex fl-wrap rec-img-grid-1">
+                    <div class="img-bd">
+                        <img src="assets/images/design/din.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/go-1.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/add.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/rou.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/pac.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/tap.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/cyf.png" alt="">
+                    </div>
+
+                    <div class="img-bd">
+                        <img src="assets/images/design/jil-1.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- industry we serve  -->
+    <section>
+        <div class="container">
+            <div class="d-flex d-fl-dir gap-7">
+                <div class="d-flex d-fl-dir gap-1">
+                    <h1 class="h1-style">Industries We Serve</h1>
+
+                    <p class="para-style">We’re industry agnostic, but here are some areas in which we’ve really knocked it out of the park.</p>
+                </div>
+
+                <div class="serve-grid d-flex d-fl-dir gap">
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Banking-Finance.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Banking &   Finance</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Healthcare-Medicine.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Healthcare & Medicine</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Travel-Tourism.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Travel &  Tourism</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Logistics-Procurement.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Logistics &  Procurement</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Real-Estate.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Real &  Estate</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Gaming.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Gaming</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Restaurants.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Restaurants</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Media-Entertainment.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Media & Entertainment</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/E-Learning.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>E-Learning</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/E-Commerce-1.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>E-Commerce</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/Social-Network.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>Social & Network</strong></p>
+                    </div>
+
+                    <div class="d-flex d-fl-dir js-cn al-cn gap-2">
+                        <img src="assets/images/design/SaaS.png" alt="">
+
+                        <p class="para-style cl-33 tx-cn"><strong>SaaS</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <div class="container">
+            <div class="faq-grid">
+                <div class="man-pic">
+                    <img src="assets/images/design/Guy (1).png" alt="">
+                </div>
+                <div class=" d-flex d-fl-dir gap-7">
+                    <div>
+                        <h1 class="h1-style">Frequently Asked Questions</h1>
+                    </div>
+    
+                    <div class="d-flex d-fl-dir gap-1">
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">1. What web development services does Digital Monk offer?
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Digital Monk offers comprehensive web development services, including website design, front-end and back-end development, e-commerce solutions, CMS development, web application development, and website optimization.
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">2. What sets you apart from other web development agencies?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">We always prioritize customer success by combining our technical expertise with a deep understanding of our clients’ goals. Our team’s strength lies in their passion for creating innovative and customized solutions that drive tangible results for businesses.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">3. How experienced is the team at Digital Monk?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Our team at Digital Monk comprises highly skilled web developers with extensive experience in the industry. Their collective expertise allows us to deliver high-quality, scalable websites and applications tailored to meet each client’s unique needs.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">4. How does Digital Monk ensure customer satisfaction?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Customer satisfaction is at the core of everything we do. We actively engage with our clients throughout the development process, ensuring their requirements are understood and implemented effectively. We also provide ongoing support and maintenance to address any post-launch concerns.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">5. Can your team help with website redesign or revamp?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Absolutely! Our team excels in website redesign and revamp projects. We can enhance the visual appeal, user experience, and functionality of existing websites to align them with current industry standards and your business objectives.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">6. Does Digital Monk provide e-commerce solutions?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Yes, we specialize in developing e-commerce websites tailored to your specific requirements. Our solutions include features such as product catalogs, secure payment gateways, inventory management, and a user-friendly shopping experience to maximize your online sales.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">7. What steps do you take to optimize website performance?
+                               
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style"> We employ various optimization techniques such as code optimization, caching, image compression, and minification to ensure fast-loading websites. We also optimize websites for search engines, enhancing their visibility and driving organic traffic.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">8. Does Digital Monk provide ongoing website maintenance and support?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Absolutely! We offer comprehensive website maintenance and support services, including regular updates, bug fixes, security enhancements, and performance monitoring. Our team is committed to keeping your website running smoothly and securely.</p>
+                            </div>
+                        </div>
+        
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style ">9. Can you integrate third-party applications into websites?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Yes, we have expertise in integrating third-party applications, APIs, and plugins to enhance the functionality and features of your website. Whether it’s integrating payment gateways, social media platforms, or other systems, we’ve got you covered.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-accord ">
+                            <button class="d-flex js-sb accordion-2 para-style "> 10. How can I get started with Digital Monk for my web development project?
+                                
+                                <span>
+                                    <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                    </svg>
+                                    <!-- Minus Icon -->
+                                    <svg class="minus-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                    </svg>
+                            </span></button>
+        
+                            <div class="panel-2">
+                                <p class="para-style">Getting started is easy! Simply reach out to our friendly team through our website or contact information provided. We’ll schedule a consultation to understand your requirements and provide you with a tailored solution to meet your business objectives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- blogs-ad -->
+    <section class="bg-grey">
+        <div class="container">
+            <div class="d-flex d-fl-dir gap">
+                <div class=" d-flex d-fl-dir gap-1">
+                    <h1 class="h1-style">Right Decision, At The Right Time</h1>
+
+                    <p class="para-style">Check out our deeply researched blogs and articles, written by our in-house bloggers, and take the right decision, at the right time, for the rihgt cause. </p>
+                </div>
+
+                <div class="blog-grid">
+                    <div class="blg-1">
+                        <div>
+                            <img src="assets/images/design/seo-finance-cocnept-scaled.webp" alt="">
+                        </div>
+
+                        <div class="blog-ad-pg d-flex d-fl-dir gap-1">
+                            <a href="#" class="h4-style cl-bk">
+                                3 Quickfire SEO Strategies For Triggering Unstoppable Growth In Organic Traffic For 2024
+                            </a>
+
+                            <p class="para-style cl-77">Search Engine Optimization or SEO is the Holy Grail of receiving insane organic traffic for any niche, and under no circumstances should …</p>
+
+                            <div class="cal d-flex al-cn gap-3">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M113.854 22.323h-9.667v-2.677a7.25 7.25 0 0 0-14.5 0v2.677H38.313v-2.677a7.25 7.25 0 0 0-14.5 0v2.677h-9.667a1.75 1.75 0 0 0-1.75 1.75v89.781a1.751 1.751 0 0 0 1.75 1.75h99.708a1.751 1.751 0 0 0 1.75-1.75V24.073a1.75 1.75 0 0 0-1.75-1.75zm-20.667-2.677a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-65.874 0a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-3.5 6.177V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h51.374V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h7.913V44.2H15.9V25.823zM15.9 112.1V47.7h96.2v64.4z"/><path d="M40.2 56h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 40.2 56zm-1.75 8.719h-5.221V59.5h5.218zM58.972 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V57.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V59.5h5.219zM77.747 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V57.75a1.749 1.749 0 0 0-1.75-1.75zM76 64.719h-5.222V59.5H76zM96.521 56H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 96.521 56zm-1.75 8.719h-5.218V59.5h5.218zM40.2 74h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 40.2 74zm-1.75 8.719h-5.221V77.5h5.218zM58.972 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V75.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V77.5h5.219zM77.747 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V75.75a1.749 1.749 0 0 0-1.75-1.75zM76 82.719h-5.222V77.5H76zM96.521 74H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 96.521 74zm-1.75 8.719h-5.218V77.5h5.218zM40.2 92h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 40.2 92zm-1.75 8.719h-5.221V95.5h5.218zM58.972 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V93.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V95.5h5.219zM77.747 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V93.75a1.749 1.749 0 0 0-1.75-1.75zM76 100.719h-5.222V95.5H76zM96.521 92H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 96.521 92zm-1.75 8.719h-5.218V95.5h5.218z"/></svg>
+                                <p class="para-style cl-77">December 1, 2023</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="blg-1">
+                        <div>
+                            <img src="assets/images/design/3-1-1.jpg" alt="">
+                        </div>
+
+                        <div class="blog-ad-pg d-flex d-fl-dir gap-1">
+                            <a href="#" class="h4-style cl-bk">
+                                Top SEO Companies in Canada			
+                            </a>
+
+                            <p class="para-style cl-77">Search Engine Optimization (SEO) is a critical aspect of digital marketing for any business, big or small. With the increasing importance of …</p>
+
+                            <div class="cal d-flex al-cn gap-3">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M113.854 22.323h-9.667v-2.677a7.25 7.25 0 0 0-14.5 0v2.677H38.313v-2.677a7.25 7.25 0 0 0-14.5 0v2.677h-9.667a1.75 1.75 0 0 0-1.75 1.75v89.781a1.751 1.751 0 0 0 1.75 1.75h99.708a1.751 1.751 0 0 0 1.75-1.75V24.073a1.75 1.75 0 0 0-1.75-1.75zm-20.667-2.677a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-65.874 0a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-3.5 6.177V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h51.374V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h7.913V44.2H15.9V25.823zM15.9 112.1V47.7h96.2v64.4z"/><path d="M40.2 56h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 40.2 56zm-1.75 8.719h-5.221V59.5h5.218zM58.972 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V57.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V59.5h5.219zM77.747 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V57.75a1.749 1.749 0 0 0-1.75-1.75zM76 64.719h-5.222V59.5H76zM96.521 56H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 96.521 56zm-1.75 8.719h-5.218V59.5h5.218zM40.2 74h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 40.2 74zm-1.75 8.719h-5.221V77.5h5.218zM58.972 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V75.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V77.5h5.219zM77.747 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V75.75a1.749 1.749 0 0 0-1.75-1.75zM76 82.719h-5.222V77.5H76zM96.521 74H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 96.521 74zm-1.75 8.719h-5.218V77.5h5.218zM40.2 92h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 40.2 92zm-1.75 8.719h-5.221V95.5h5.218zM58.972 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V93.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V95.5h5.219zM77.747 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V93.75a1.749 1.749 0 0 0-1.75-1.75zM76 100.719h-5.222V95.5H76zM96.521 92H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 96.521 92zm-1.75 8.719h-5.218V95.5h5.218z"/></svg>
+                                <p class="para-style cl-77">December 1, 2023</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="blg-1">
+                        <div>
+                            <img src="assets/images/design/top canada.jpg" alt="">
+                        </div>
+
+                        <div class="blog-ad-pg d-flex d-fl-dir gap-1">
+                            <a href="#" class="h4-style cl-bk">
+                                Top Digital Marketing Agency in Canada			
+                            </a>
+
+                            <p class="para-style cl-77">In today’s digital age, digital marketing has become a crucial aspect of any business’s marketing strategy. With the increasing importance of online …</p>
+
+                            <div class="cal d-flex al-cn gap-3">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M113.854 22.323h-9.667v-2.677a7.25 7.25 0 0 0-14.5 0v2.677H38.313v-2.677a7.25 7.25 0 0 0-14.5 0v2.677h-9.667a1.75 1.75 0 0 0-1.75 1.75v89.781a1.751 1.751 0 0 0 1.75 1.75h99.708a1.751 1.751 0 0 0 1.75-1.75V24.073a1.75 1.75 0 0 0-1.75-1.75zm-20.667-2.677a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-65.874 0a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-3.5 6.177V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h51.374V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h7.913V44.2H15.9V25.823zM15.9 112.1V47.7h96.2v64.4z"/><path d="M40.2 56h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 40.2 56zm-1.75 8.719h-5.221V59.5h5.218zM58.972 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V57.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V59.5h5.219zM77.747 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V57.75a1.749 1.749 0 0 0-1.75-1.75zM76 64.719h-5.222V59.5H76zM96.521 56H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 96.521 56zm-1.75 8.719h-5.218V59.5h5.218zM40.2 74h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 40.2 74zm-1.75 8.719h-5.221V77.5h5.218zM58.972 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V75.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V77.5h5.219zM77.747 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V75.75a1.749 1.749 0 0 0-1.75-1.75zM76 82.719h-5.222V77.5H76zM96.521 74H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 96.521 74zm-1.75 8.719h-5.218V77.5h5.218zM40.2 92h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 40.2 92zm-1.75 8.719h-5.221V95.5h5.218zM58.972 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V93.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V95.5h5.219zM77.747 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V93.75a1.749 1.749 0 0 0-1.75-1.75zM76 100.719h-5.222V95.5H76zM96.521 92H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 96.521 92zm-1.75 8.719h-5.218V95.5h5.218z"/></svg>
+                                <p class="para-style cl-77">December 1, 2023</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex js-cn al-cn see-btn">
+                    <button class="a-tag">See All Blogs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact form -->
+    <section class="con-bk">
+        <div class="container-2 pos-rel">
+            <div class="cont-grid">
+                <div class=" d-flex al-end">
+                    <div class=" h1-cont">
+                        <h2 class="h1-style c-w">Contact us</h2>
+                    </div>
+                </div>
+                
+
+                <form action="">
+                    <div class="con-form d-flex d-fl-dir gap" >
+                        <h2 class="h1-style">Contact Form</h2>
+    
+                        <div class="d-flex d-fl-dir gap-1">
+                            <input type="text" placeholder="Name">
+    
+                            <input type="email" placeholder="E-mail" id="">
+    
+                            <input type="number" placeholder="Phone">
+    
+                            <input type="text" placeholder="Message">
+    
+                            <div class="cont-btn">
+                                <button class="d-flex al-cn gap-3"><a href="#" class="a-tag c-w">Send Message </a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
